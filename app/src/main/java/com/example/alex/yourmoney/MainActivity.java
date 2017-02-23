@@ -37,20 +37,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
 
             case R.id.button_name:
-                Intent intent = new Intent(this, NameActivity.class);
-                startActivity(intent);
+                Intent nameIntent = new Intent(this, NameActivity.class);
+                startActivity(nameIntent);
             break;
             case R.id.button_date:
-                Intent intent1 = new Intent(this, DateActivity.class);
-                startActivity(intent1);
+                Intent dateIntent = new Intent(this, DateActivity.class);
+                startActivity(dateIntent);
             break;
             case R.id.button_about:
-                Intent intent2 = new Intent(this, AboutActivity.class);
-                startActivity(intent2);
+                Intent aboutIntent = new Intent(this, AboutActivity.class);
+                startActivity(aboutIntent);
             break;
             case R.id.button_registration:
-                Intent intent3 = new Intent(this, LastActivity.class);
-                startActivity(intent3);
+                Intent registrationIntent = new Intent(this, LastActivity.class);
+                startActivity(registrationIntent);
             break;
 
         }

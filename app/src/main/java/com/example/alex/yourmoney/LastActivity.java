@@ -3,6 +3,7 @@ package com.example.alex.yourmoney;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -62,11 +63,9 @@ public class LastActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void onClick(View v){
-       // Intent intent = null;
         switch (v.getId()){
 
             case R.id.btn_closeAPP:
-                //intent = new Intent(this, LastActivity.class).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP|Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 finishAffinity();
             break;
 

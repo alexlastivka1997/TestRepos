@@ -38,12 +38,10 @@ public class DateActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btn_date_save:
                 saveDate();
-                Intent intent1 = new Intent(this,MainActivity.class);
-                startActivity(intent1);
+                finish();
                 break;
             case R.id.btn_date_cancel:
-                Intent intent = new Intent(this,MainActivity.class);
-                startActivity(intent);
+                finish();
                 break;
 
         }

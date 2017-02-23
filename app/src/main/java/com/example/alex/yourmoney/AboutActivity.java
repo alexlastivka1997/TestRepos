@@ -40,12 +40,10 @@ public class AboutActivity extends AppCompatActivity implements View.OnClickList
 
             case R.id.btn_about_save:
                 saveAbout();
-                Intent intent1 = new Intent(this,MainActivity.class);
-                startActivity(intent1);
+                finish();
                 break;
             case R.id.btn_about_cancel:
-                Intent intent = new Intent(this,MainActivity.class);
-                startActivity(intent);
+                finish();
                 break;
 
         }

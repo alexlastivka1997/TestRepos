@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">" YourMoney"</string>
+    <string name="app_name">"Registration"</string>
+    <string name="call_for_r">Для регистрации заполните следующие пункты</string>
+    <string name="first_name">Your First name</string>
+    <string name="last_name">Your Last name</string>
+    <string name="date">Paste your date</string>
+    <string name="about">Tell about yourself</string>
 </resources>

@@ -47,13 +47,11 @@ public class NameActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
 
             case R.id.btn_name_save:
-                 saveText();
-                Intent intent1 = new Intent(this,MainActivity.class);
-                startActivity(intent1);
+                saveText();
+                finish();
             break;
             case R.id.btn_name_cancel:
-                Intent intent = new Intent(this,MainActivity.class);
-                startActivity(intent);
+                finish();
             break;
 
         }
